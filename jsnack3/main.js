@@ -2,6 +2,7 @@
 
 let somma = 0;
 
+let media = 0;
 
 let inizia = document.getElementById("bottone");
 
@@ -17,8 +18,13 @@ function(){
     }
     
     alert("Il risultato finale è: " + somma);
-
+    
+    media = somma / 10;
+    
+    alert(media);
     somma = 0;
+
+
 }
 
 
